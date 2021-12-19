@@ -1,6 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
@@ -36,8 +54,8 @@
         <div class="col-md-4">
           <h1 style="margin-bottom:0.15em; margin-top:0.25em; font-size: 3em;" class="my-4">Peter Ney</h1>
           <br>
-          <h4 class="my-4" style="margin-top:12px; margin-bottom:40px; font-size:1.1em;"><small>Security and Privacy Researcher<br>
-            Ph.D. Student<br>
+          <h4 class="my-4" style="margin-top:12px; margin-bottom:40px; font-size:1.1em;"><small>Security and Privacy<br>
+            Postdoctoral Researcher<br>
             <a href="https://www.cs.washington.edu/">Allen School of Computer Science</a><br>
             <a href="https://seclab.cs.washington.edu/">Security and Privacy Research Lab</a><br>
             <strong>email:</strong> neyp<span style="display:none;">junk</span>@cs.washington.edu<br></small></h4>
@@ -52,13 +70,28 @@
       <!-- /.row -->
 
       <div style="margin-top:0.75em;" class="row">
-        <p>I am a Ph.D. student at the University of Washington in the Allen School of Computer Science and Engineering and am a member of the Security and Privacy Lab where I am advised by <a href="https://homes.cs.washington.edu/~yoshi/">Professor Tadayoshi Kohno</a>. My research is focused on understanding computer security risks in emerging technologies like DNA synthesis and sequencing and on developing technologies to detect and measure cell phone surveillance. I am also fascinated by the intersection between technology, policy, and law and am a member of the <a href="http://techpolicylab.org">UW Tech Policy Lab</a>. Before arriving at UW, I obtained my bachelor's at the University of Wisconsin-Madison where I studied Computer Science, Molecular Biology, and Mathematics and researched the evolution of development in the <a href="http://carroll.molbio.wisc.edu">Carroll Lab</a>.</p>
+        <p>I am a postdoctoral researcher at the University of Washington in the Allen School of Computer Science and Engineering where I am a member of both the Security and Privacy Lab and the Molecular Information Systems Lab. My research is focused on understanding how increased computerization and automation in the biotechnology sector is creating new cyber-security threats. I also research the security of consumer genetic services and was the first to demonstrate that molecular information, like DNA, can be a vector for computer security issues. I previously worked to understand the state of cell phone security and has built and deployed measurement systems designed to detect rogue base stations. I completed my Ph.D. in Computer Science at the University of Washington and received my bachelor's degrees from the University of Wisconsin-Madison.</p>
       </div>
 
       <hr style="margin-top: 1.5em; margin-bottom:1.5em;">
 
       <div id="Research" style="margin-bottom:0.25em;" class="row">
-        <h1 style="margin-bottom:0.15em; margin-top:0px;" class="my-4"><center>Research</center></h1>
+        <h1 style="margin-bottom:0.15em; margin-top:0px;" class="my-4"><center>Selected Projects</center></h1>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <h3>Computer Security Risks to 3rd-Party Genetic Genealogy Services</h3>
+          <p>Customers of direct-to-consumer (DTC) genetic testing services routinely download their raw genetic data and give it to third-party companies that support additional features. One type of analysis, called genetic genealogy, uses genetic data and genealogical methods to find new relatives. While genetic genealogy is quite popular, it has raised new privacy concerns. Genetic genealogy services can be leveraged to find the person corresponding to anonymous genetic data and have been used dozens of times by law enforcement to solve crimes. We hypothesized that the open design and broad API offered by some genetic genealogy services raise other significant security and privacy issues. To test this hypothesis, we analyzed the security practices of GEDmatch, the largest third-party genetic genealogy service. Here, we experimentally show how the GEDmatch API is vulnerable to a number of attacks from an adversary that only uploads normally formatted genetic data files and runs standard queries. Using a small number of specifically designed files and queries, an attacker can extract a large percentage of the genetic markers from other users; 92% of markers can be extracted with 98% accuracy, including hundreds of medically sensitive markers. We also find that an adversary can construct genetic data files that falsely appear like relatives to other samples in the database; in certain situations, these false relatives can be used to make the re-identification of genetic data more difficult. These attacks are possible because of the rich set of features supported by the API, including detailed visualizations, that are meant to enhance usability. We conclude with security recommendations for genetic genealogy services.</p>
+          <p style="font-family: monospace;">
+            <a href="https://dnasec.cs.washington.edu/genetic-genealogy/ney_ndss.pdf">
+              <img src="img/icon_pdf.gif" style="cursor: default; " height="16" border="0" width="16" />&nbsp;Paper (1.1MB)</a>
+          &nbsp;&nbsp;
+          Press:
+          <a href="https://www.technologyreview.com/2019/10/30/132142/dna-database-gedmatch-golden-state-killer-security-risk-hack/" target="_blank">MIT Tech Review</a>&nbsp;
+          <br> </p>
+          <a class="btn btn-primary btn-lg" href="https://dnasec.cs.washington.edu/genetic-genealogy/">Project Page</a>
+        </div>
       </div>
 
       <div class="row">
@@ -67,7 +100,7 @@
           <p>The rapid improvement in DNA sequencing has sparked a big data revolution in genomic sciences, which has in turn led to a proliferation of bioinformatics tools. To date, these tools have encountered little adversarial pressure. This paper evaluates the robustness of such tools if (or when) adversarial attacks manifest. We demonstrate, for the first time, the synthesis of DNA which &mdash; when sequenced and processed &mdash; gives an attacker arbitrary remote code execution. To study the feasibility of creating and synthesizing a DNA-based exploit, we performed our attack on a modified downstream sequencing utility with a deliberately introduced vulnerability. After sequencing, we observed information leakage in our data due to sample bleeding. While this phenomena is known to the sequencing community, we provide the first discussion of how this leakage channel could be used adversarially to inject data or reveal sensitive information. We then evaluate the general security hygiene of common DNA processing programs, and unfortunately, find concrete evidence of poor security practices used throughout the field. Informed by our experiments and results, we develop a broad framework and guidelines to safeguard security and privacy in DNA synthesis, sequencing, and processing.
 </p>
           <p style="font-family: monospace;">
-            <a href="https://dnasec.cs.washington.edu/dnasec.pdf">
+            <a href="https://dnasec.cs.washington.edu/dna-sequencing-security/dnasec.pdf">
               <img src="img/icon_pdf.gif" style="cursor: default; " height="16" border="0" width="16" />&nbsp;Paper (1.1MB)</a>
           &nbsp;|&nbsp;
           <a href="https://youtu.be/TyMh6P4GxGo" target="_blank"><img src="img

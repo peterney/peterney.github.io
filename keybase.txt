@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/peterney
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://peterney.net
+  * I am peterney (https://keybase.io/peterney) on keybase.
+  * I have a public key with fingerprint 5C8F C413 5872 A3FE EB02  03D8 A7E8 2297 F7D0 2D0A
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010167e2a27b4adfbafae28d7b2bc4392a0620acbfdd3d8a414aa348be7be184abb60a",
+      "fingerprint": "5c8fc4135872a3feeb0203d8a7e82297f7d02d0a",
+      "host": "keybase.io",
+      "key_id": "a7e82297f7d02d0a",
+      "kid": "010167e2a27b4adfbafae28d7b2bc4392a0620acbfdd3d8a414aa348be7be184abb60a",
+      "uid": "37deb45eccf64b01a674e7b991b73919",
+      "username": "peterney"
+    },
+    "service": {
+      "hostname": "peterney.net",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1506985459,
+  "expire_in": 157680000,
+  "prev": "0ed23986937398ababeb78464767c65df439b194cdd6d2785eeae92e575d2ad1",
+  "seqno": 3,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owGtUntQVFUcXhbksQKCI5jP4Co2azzu+7Fh9gIciMdUTFIG3XPv2eXCeu+ye5fH
+EGQQjJYPRk2NtmxkkCRHDfzDlQSN0DTSFRuJBiKVSlRAa1JC0u5l6p+mPzv/nHN+
+5/u+8/2++TWE+RuMfi3Xkd33fAkmv69HgSGvr2eyEgGKWIFYKpFiOLNBuwhdakGx
+JCIWBMVQjGYgzuMMIHnRCngrD3FWZAAOBJLgcB6lcZQXgFUUCZHlSYzkeYJkAWQA
+xFiSB4BGeSQesUqyDTodTklWNVlKYK0CiREUy+A8YYUQoDiq8xnI4jjHWBkRxcUZ
+YqHi0hmaOcC7YKKkaDXtUjBj7z/w/7Nv94wcwYgQkBQUBCtNAhTjaYbUkByHAYbg
+ME4HuqBT5tdDDe2AqnbW0qyKR7RqqSRAPVi9k38hEmWoalyHU1EVQbFrL4Wq6nBZ
+dKZa4dChZRAU/C1SACRZ1HLUGKXQ6ZIUGbFgGlJQJV0Vo1CaYymS4uIRWO6QnLBA
+0hEUQ7OotvR/YKkeDhRxgmPX0hyhuWd5wAMIGJakSYZmBJoSrVpCAONIQRRpEWdY
+CkIecjikGErEeRFD9L5KZAWxEJpP3qZpuiSbzKtuJ0SqTJuMiwMMfkZD4CyjPmEG
+U0jEP2NXfzPCcLK1Qyk7VCd4TFXuW+64mB+X9mR7zyxrTE3rmuPfcO/FMyPheU3P
+tc962rF927rtwyslWz1omPdo+t28HNlydX/LqDnZLvf3BquHUj45fqPb/mCveWwV
+O/X+nmdh94OJmtivOvKnrpR7x+2dDz2bcaJx304TFnvVVpsc5X/0V2/hk+M3Vj/M
+Gin80PkH8U7vFS8MiXR/yszZGs5kL+wJfSsquKn5VOfcHiUh+3x18dT1TKNj7+UX
+rmX/dri6qmHfnrThkyUpxmR/S9grG0YQT6ayppFOerVjrbnu1OzcgBiDuPFOIvv6
+kYtf7iZ+ycF+zypreqOju9n8k7f85oQxOubAe5te2jw973JLRdTgkrjv1F19F4vb
+h48dCO1dcWIxO951fuHk9PyBayHeOPxwff+yLatHFr122y6lrP/+dCay6Pm2tsE7
+bxta8ic/ap07Ft08/Uz1glXBqbU7cpq2RM32f6IkPTLr7FDeNwfvRz2ycYnpzRWp
+3Tu6fbdT0wYdng9+fvzzL7ytC6r21/yQcTCjqGypNyDlM3wg/8Lp5b5jyIVO38TL
+gcfP0vLdereYez+8LjLbY88kmbY/3429FNrUd8K34agnIzesvywjMYFsqzmyayDc
+3GaOGa0997E0v/9c0OTQhDE9KGK6KNraPpY09K3r0pqWVkPRrZ1PBZpzh5JWdlU+
+lo82r1se9Bc=
+=TB96
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/peterney
+
+==================================================================
+
