@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta name="description" content="">
+
+    <title>Peter Ney</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type='text/css'>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  </head>
+
+  <body>
+    <nav class="topnav navbar navbar-default navbar-fixed-top" id="myTopnav">
+      <div class="container-fluid">
+        <ul class="nav navbar-nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#Research">Research</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+      <!-- Project One -->
+      <div class="row" style="float: bottom;">
+
+        <div class="col-md-4">
+          <h1 style="margin-bottom:0.15em; margin-top:0.25em; font-size: 3em;" class="my-4">Peter Ney</h1>
+          <br>
+          <h4 class="my-4" style="margin-top:12px; margin-bottom:40px; font-size:1.1em;"><small>Security and Privacy Researcher<br>
+            Ph.D. Student<br>
+            <a href="https://www.cs.washington.edu/">Allen School of Computer Science</a><br>
+            <a href="https://seclab.cs.washington.edu/">Security and Privacy Research Lab</a><br>
+            <strong>email:</strong> neyp<span style="display:none;">junk</span>@cs.washington.edu<br></small></h4>
+        </div>
+        <div class="col-md-4">
+            <img class="img-fluid rounded mb-3 mb-md-0" style="width:302px; height:250px;" src="img/portrait.jpg">
+        </div>
+        <div class="col-md-3">
+            <img class="img-fluid rounded mb-3 mb-md-0" style="width:225px; height:150px; margin-top:55px;" src="img/W-Logo.png">
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <div style="margin-top:0.75em;" class="row">
+        <p>I am a Ph.D. student at the University of Washington in the Allen School of Computer Science and Engineering and am a member of the Security and Privacy Lab where I am advised by <a href="https://homes.cs.washington.edu/~yoshi/">Professor Tadayoshi Kohno</a>. My research is focused on understanding computer security risks in emerging technologies like DNA synthesis and sequencing and on developing technologies to detect and measure cell phone surveillance. I am also fascinated by the intersection between technology, policy, and law and am a member of the <a href="http://techpolicylab.org">UW Tech Policy Lab</a>. Before arriving at UW, I obtained my bachelor's at the University of Wisconsin-Madison where I studied Computer Science, Molecular Biology, and Mathematics and researched the evolution of development in the <a href="http://carroll.molbio.wisc.edu">Carroll Lab</a>.</p>
+      </div>
+
+      <hr style="margin-top: 1.5em; margin-bottom:1.5em;">
+
+      <div id="Research" style="margin-bottom:0.25em;" class="row">
+        <h1 style="margin-bottom:0.15em; margin-top:0px;" class="my-4"><center>Research</center></h1>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <h3>Computer Security and Privacy in DNA Sequencing</h3>
+          <p>The rapid improvement in DNA sequencing has sparked a big data revolution in genomic sciences, which has in turn led to a proliferation of bioinformatics tools. To date, these tools have encountered little adversarial pressure. This paper evaluates the robustness of such tools if (or when) adversarial attacks manifest. We demonstrate, for the first time, the synthesis of DNA which &mdash; when sequenced and processed &mdash; gives an attacker arbitrary remote code execution. To study the feasibility of creating and synthesizing a DNA-based exploit, we performed our attack on a modified downstream sequencing utility with a deliberately introduced vulnerability. After sequencing, we observed information leakage in our data due to sample bleeding. While this phenomena is known to the sequencing community, we provide the first discussion of how this leakage channel could be used adversarially to inject data or reveal sensitive information. We then evaluate the general security hygiene of common DNA processing programs, and unfortunately, find concrete evidence of poor security practices used throughout the field. Informed by our experiments and results, we develop a broad framework and guidelines to safeguard security and privacy in DNA synthesis, sequencing, and processing.
+</p>
+          <p style="font-family: monospace;">
+            <a href="https://dnasec.cs.washington.edu/dnasec.pdf">
+              <img src="img/icon_pdf.gif" style="cursor: default; " height="16" border="0" width="16" />&nbsp;Paper (1.1MB)</a>
+          &nbsp;|&nbsp;
+          <a href="https://youtu.be/TyMh6P4GxGo" target="_blank"><img src="img
+/icon_youtube.png" style="cursor: default; " height="" border="0" width="20" />Video</a>
+          <br>
+
+          Press:
+          <a href="https://www.wired.com/story/malware-dna-hack/" target="_blank">Wired</a>&nbsp;|&nbsp;
+          <a href="https://www.wsj.com/articles/malware-stored-in-synthetic-dna-can-take-over-a-pc-researchers-find-1502337660" target="_blank">Wall St. Journal</a>&nbsp;|&nbsp;
+          <a href="https://www.theatlantic.com/science/archive/2017/08/these-scientists-took-over-a-computer-by-encoding-malware-in-dna/536361/" target="_blank">The Atlantic</a>&nbsp;|&nbsp;
+          <a href="https://www.technologyreview.com/s/608596/scientists-hack-a-computer-using-dna/" target="_blank">MIT Tech Review</a>&nbsp;|&nbsp;
+          <a href="http://www.slate.com/blogs/future_tense/2017/08/10/hackers_can_store_malware_on_dna.html" target="_blank">Slate</a>&nbsp;|&nbsp;
+          <a href="https://techcrunch.com/2017/08/09/malicious-code-written-into-dna-infects-the-computer-that-reads-it/" target="_blank">Tech Crunch</a>&nbsp;|&nbsp;
+          <a href="https://youtu.be/xR8XMjiMoiQ" target="_blank">CyberWire Research Sunday Podcast</a>
+          <br> </p>
+          <a class="btn btn-primary btn-lg" href="https://dnasec.cs.washington.edu/">Project Page</a>
+        </div>
+      </div>
+
+      <hr style="margin-bottom:0px;">
+
+      <div class="row">
+        <div class="col-md-12">
+          <h3>SeaGlass: City-wide IMSI-catcher Detection (aka Stingrays or Cell-site Simulators)</h3>
+          <p>Cell-site simulators are cell phone surveillance devices that are used around the world by governments and criminals. These powerful devices are capable of precisely locating phones, evesdroping on conversations, and sending spam or malware. However, our primary source of information about their use comes from journalists and anonymous leaks. To gain a better technical understanding of how often, when, and where cell-site simulators are used, we built and deployed SeaGlass, a city-wide cell-site simulator detection system. SeaGlass cellular sensors are designed to be robust, low-maintenance, and deployable in vehicles for long durations.  The data they generate is used to learn a city's network properties to find anomalies consistent with cell-site simulators. We installed SeaGlass sensors into 15 ridesharing vehicles across two cities, collecting two months of data in each city. Using this data, we evaluated the system and show how SeaGlass can be used to detect portable cell-site simulators.<br></p>
+          <p style="font-family: monospace;">
+            <a href="https://seaglass-web.s3.amazonaws.com/SeaGlass___PETS_2017.pdf">
+              <img src="img/icon_pdf.gif" style="cursor: default; " height="16" border="0" width="16" />&nbsp;Paper (7.4MB)</a>
+          &nbsp;|&nbsp;
+          <a href="https://youtu.be/8-G2EJ-1WTg" target="_blank"><img src="img
+/icon_youtube.png" style="cursor: default; " height="" border="0" width="20" />Video</a>
+          &nbsp;|&nbsp;
+          <a href="https://github.com/seaglass-project/seaglass" target="_blank"><img src="img
+/github.png" style="cursor: default; " height="35" border="0" width="35" />Code</a>
+          <br>
+
+          Press: 
+          <a href="https://www.wired.com/2017/06/researchers-use-rideshares-sniff-stingray-locations/" target="_blank">Wired</a>&nbsp;|&nbsp;
+          <a href="https://techcrunch.com/2017/06/02/who-catches-the-imsi-catchers-researchers-demonstrate-stingray-detection-kit/" target="_blank">Tech Crunch</a>
+          <br> </p>
+          <a class="btn btn-primary btn-lg" href="https://seaglass.cs.washington.edu">Project Page</a>
+        </div>
+      </div>
+      <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>
